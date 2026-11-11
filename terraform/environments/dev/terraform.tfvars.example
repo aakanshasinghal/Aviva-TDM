@@ -1,0 +1,10 @@
+aws_region = "eu-west-1"
+project_name = "aviva-tdm"
+environment = "dev"
+container_image = "123456789012.dkr.ecr.eu-west-1.amazonaws.com/tdm-app:latest"
+existing_s3_bucket_name = "aviva-tdm-data"
+
+app_environment = {
+  APP_ENV  = "dev"
+  LOG_LEVEL = "INFO"
+}
